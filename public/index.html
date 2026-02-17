@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Universe Chatbot</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>🌌 Universe Chatbot</h1>
+      <p class="subtitle">Ask anything about space, stars, galaxies, black holes, or cosmology.</p>
+
+      <div id="chat" class="chat" aria-live="polite"></div>
+
+      <form id="chat-form" class="chat-form">
+        <label for="message" class="sr-only">Ask about the universe</label>
+        <textarea id="message" name="message" rows="3" placeholder="What happens inside a black hole?" required></textarea>
+        <button type="submit">Ask</button>
+      </form>
+    </main>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
