@@ -1,0 +1,12 @@
+{
+  "name": "universe-chatbot-app",
+  "version": "1.0.0",
+  "description": "OpenAI-powered chatbot for questions about the universe",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "check": "node --check server.js"
+  }
+}
